@@ -1,0 +1,93 @@
+.nav-header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100vw;
+    height:13vh;
+    background-color:#f2f2f2;
+    align-items: center;
+}
+.nav-content{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav-content2{
+    display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+    width:300px;
+   
+   
+}
+.baseContainer{
+    display: flex;
+    flex-direction: row;
+    margin:12px;
+}
+
+.filterLogo{
+    margin: 12px;
+    cursor: pointer;
+}
+.logoImage{
+    width: 24px;
+    height:26px;
+    margin: 12px;
+}
+.logoImage2{
+    width: 24px;
+    height:26px;  
+}
+.containerFlow{
+    display: flex;
+    flex-direction: column;
+}
+.dataContainer{
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+    width:20vw;
+    background-color: white;
+}
+.subContainer {
+    display: flex;
+    align-items: center; 
+    cursor: pointer;
+  }
+  .rxDashBord{
+    margin:12px;
+  }
+  .helloBase{
+    margin:5px;
+  }
+  .uploadContainer{
+    display:flex;
+    flex-direction: row;
+  }
+  .notationContainer{
+    display:flex;
+    flex-direction: row;
+    margin: 12px;
+  
+  }
+  .notationContainer2{
+    border-radius: 40px;
+    width: 24px;
+    height:29px; 
+   
+  }
+  .iconData{
+    margin-right: 12px;
+    margin-top: 7px;
+  }
+  .homeContainer2{
+    display: flex;
+    width: 80vw;
+    height:100%;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   
+  }

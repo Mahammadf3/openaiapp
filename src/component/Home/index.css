@@ -1,0 +1,38 @@
+.xlContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fileContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 12px;
+    border-style: solid;
+    width: 596px;
+height: 367px;
+
+}
+.inputData{
+align-self: center;
+
+}
+.tableRow{
+    border-radius: 8px;
+    background: var(--Light-Goku, #F5F5F5);
+}
+.dataRow{
+
+    border-radius: 8px;
+    background: var(--Light-Gohan, #FFF);
+
+
+}
+@media screen and (max-width: 600px) {
+    .fileContainer {
+      width: 90%;
+    }
+  }
